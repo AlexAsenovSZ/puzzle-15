@@ -1,0 +1,7 @@
+C:\Users\Phillip\source\repos\Puzzle 15\bin\Debug\Puzzle 15.exe.config
+C:\Users\Phillip\source\repos\Puzzle 15\bin\Debug\Puzzle 15.exe
+C:\Users\Phillip\source\repos\Puzzle 15\bin\Debug\Puzzle 15.pdb
+C:\Users\Phillip\source\repos\Puzzle 15\obj\Debug\Puzzle 15.csproj.AssemblyReference.cache
+C:\Users\Phillip\source\repos\Puzzle 15\obj\Debug\Puzzle 15.csproj.CoreCompileInputs.cache
+C:\Users\Phillip\source\repos\Puzzle 15\obj\Debug\Puzzle 15.exe
+C:\Users\Phillip\source\repos\Puzzle 15\obj\Debug\Puzzle 15.pdb
