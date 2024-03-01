@@ -1,7 +1,7 @@
 using System;//promqna 23.02.2024 godina
 public class Display
 {
-	public void Run()
+	public int lineLength =  10 ;  public void Run()
 	{
 		string[] number =
 		{
@@ -30,15 +30,15 @@ public class Display
 	{
 		//Визуална репрезентация за Пъзел 15
 		Console.WriteLine("---------------------------");
-		Start(cube);
+		//Start(cube);
 		Console.WriteLine("|  " + number[cube[0]] + "  |  " + number[cube[1]] + "  |  " + number[cube[2]] + "  |  " + number[cube[3]] + "  |");
 		Console.WriteLine("---------------------------");
-		Start(cube);
+		//Start(cube);
 		Console.WriteLine("|  " + number[cube[4]] + "  |  " + number[cube[5]] + "  |  " + number[cube[6]] + "  |  " + number[cube[7]] + "  |");
 		Console.WriteLine("---------------------------");
 		Console.WriteLine("|  " + number[cube[8]] + "  |  " + number[cube[9]] + "  |  " + number[cube[10]] + "  |  " + number[cube[11]] + "  |");
 		Console.WriteLine("---------------------------");
-		Start(cube);
+		//Start(cube);
 		Console.WriteLine("|  " + number[cube[12]] + "  |  " + number[cube[13]] + "  |  " + number[cube[14]] + "  |  " + " " + "  |");
 		Console.WriteLine("---------------------------");
 	}
@@ -68,16 +68,27 @@ public class Display
 		Console.WriteLine("-----------------------------------");
 	}
 
-	public static void DisplayC()
+	private void ConsoleLine()
+	{
+		Console.WriteLine("");
+		for (int i = 0; i < this.lineLength; i++)
+		{
+			Console.Write("-");
+		}
+		Console.WriteLine("");
+	}
+
+	public void RunConsole()
 	{
 		for (int i = 0; i < 4; i++)
 		{
-			int num  =1;
+			int num = 1;
 			for (int k = 0; k < 4; k++)
 			{
-				Console.Write("{0}\t",num);
+				Console.Write("{0}\t", num);
 			}
-			Console.WriteLine("");
+
+			this.ConsoleLine();
 		}
 	}
 
